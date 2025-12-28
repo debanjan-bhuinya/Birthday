@@ -40,14 +40,15 @@ img {
     position: relative;
     width: 250px;
     height: 350px;
+    margin-top: 200px;
     cursor: pointer;
     transform-style: preserve-3d;
-    transform: perspective(2500px);
+    transform: perspective(2500px) scale(2.0);
     transition: 4s;
 }
 
 .birthdayCard:hover {
-    transform: perspective(2500px) rotate(5deg);
+    transform: perspective(2500px) rotate(5deg) scale(2.0);
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
 }
 
